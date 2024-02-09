@@ -138,5 +138,9 @@ def main():
     screen = turtle.Screen()
     screen.bgcolor("light blue")
     turta.speed(2)
+    hexa_color= input("Enter the color of hexagon = ")
+    circle_color= input("Enter the color of circle = ")
+    square_color= input("Enter the color of square = ")
+    border_color= input("Enter the color of shape borders = ")
     
 main()
